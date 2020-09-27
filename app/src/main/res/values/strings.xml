@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="country">Ciudad</string>
+    <string name="confirmed">Confirmados</string>
+    <string name="deaths">Muertes</string>
+    <string name="recovered">Recuperados</string>
+    <string name="quantity">450000</string>
+    <string name="app_title">Coronavirus</string>
+    <string name="code">Código</string>
+    <string name="newCases">Nuevos Confirmados</string>
+    <string name="totalConfirmed">Total de Confirmados</string>
+    <string name="newDeaths">Nuevas Muertes Virus</string>
+    <string name="totalDeaths">Total de Muertes Virus</string>
+    <string name="newRecovered">Nuevos Recuperados</string>
+    <string name="totalRecovered">Total de Recuperados</string>
+</resources>

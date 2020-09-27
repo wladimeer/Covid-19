@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc_background"
+    tools:context=".activity.DetailActivity"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#321717"
+        tools:ignore="UselessParent"
+        android:orientation="vertical"
+        android:padding="8dp"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+        >
+
+            <TextView
+                android:id="@+id/id_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap"
+                android:text="@string/country"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="28sp"
+            />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/id_country"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/newCases"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+            <TextView
+                android:id="@+id/id_newConfirmed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap"
+                android:text="@string/quantity"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/totalConfirmed"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+            <TextView
+                android:id="@+id/id_totalConfirmed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap"
+                android:text="@string/quantity"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/newDeaths"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+            <TextView
+                android:id="@+id/id_newDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap"
+                android:text="@string/quantity"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/totalDeaths"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+            <TextView
+                android:id="@+id/id_totalDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap"
+                android:text="@string/quantity"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/newRecovered"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+            <TextView
+                android:id="@+id/id_newRecovered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap"
+                android:text="@string/quantity"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/totalRecovered"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+            <TextView
+                android:id="@+id/id_totalRecovered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap"
+                android:text="@string/quantity"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+            />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
